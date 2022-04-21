@@ -1,9 +1,5 @@
-# OSG User School 2022
+# This repository has been moved to the new [OSG-HTC Organization](https://github.com/osg-htc)
 
-The source files for the OSG User School 2022 website.
+As part of this change you will have to update your git endpoint to a new location, whether that is a fork of the new [repository](https://github.com/osg-htc/user-school-2022/fork) or the endpoint [https://github.com/osg-htc/user-school-2022.git](https://github.com/osg-htc/user-school-2022.git) itself.
 
-To serve the website locally, download Docker and use the command in the root directory:
-
-```console
-docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
-```
+You will also find some new commits at that repo pertaining to the move that must be pulled down. 
